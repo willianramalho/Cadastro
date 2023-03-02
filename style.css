@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: sans-serif, cursive;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+
+table{
+    display: flex;
+    justify-content:center;
+    
+}
+
+tbody{
+    border: 0.5px solid red;
+}
+
+
+#botaoEnviaAcesso, #botaoCancelaAcesso{
+	font-size: 12px;
+	font-weight: normal;
+	font-family: 'Noto Sans', sans-serif;
+	padding: 2px 12px 2px 12px;
+	border-radius: 4px;
+	background: grey;
+	color: black;
+	border: solid 2px white;
+}
+#botaoEnviaAcesso:hover, #botaoCancelaAcesso:hover{
+    background-color: rgb(92, 105, 105);
+}
+
+.infoTable, input{
+    width: 221px;
+    height: 25px;
+}
