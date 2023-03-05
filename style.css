@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    padding: 0;
+    padding: 10px;
     box-sizing: border-box;
     font-size: 16px;
     font-family: sans-serif, cursive;
@@ -20,7 +20,12 @@ tbody{
     border: 0.5px solid red;
 }
 
-.liberarAcessos{
+.liberaAcesso{
+    display: flex;
+    justify-content: center;
+}
+
+.kanban {
     display: flex;
     justify-content: center;
     min-height: 250px;
@@ -28,7 +33,7 @@ tbody{
     padding: 10px;
 }
 
-.colunaAcessos{
+.column{
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -38,11 +43,15 @@ tbody{
     border-radius: 10px;
 }
 
-.nivelAcessos{
+.item{
     background-color: white;
     padding: 10px;
     border-radius: 10px;
 }
+
+.dragging {
+    opacity: 0.5;
+  }
 
 #botaoEnviaAcesso, #botaoCancelaAcesso{
 	font-size: 12px;
