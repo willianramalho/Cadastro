@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-size: 16px;
     font-family: sans-serif, cursive;
     font-weight: 600;
@@ -19,6 +20,29 @@ tbody{
     border: 0.5px solid red;
 }
 
+.liberarAcessos{
+    display: flex;
+    justify-content: center;
+    min-height: 250px;
+    gap: 10px;
+    padding: 10px;
+}
+
+.colunaAcessos{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    background-color: blue;
+    min-width: 100px;
+    border-radius: 10px;
+}
+
+.nivelAcessos{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
 
 #botaoEnviaAcesso, #botaoCancelaAcesso{
 	font-size: 12px;
