@@ -1,4 +1,5 @@
-// para utilizar a funcionalidade do drag and drop utilizei o video ( https://www.youtube.com/watch?v=uO-SuUhDI7k&t=41s&ab_channel=WillDev), como exemplo
+// para utilizar a funcionalidade do drag and drop tive que olhar e pesquisar alguns videos na internet e ler artigos para entender melhor como funciona esta logica.
+// Um video que me ajudou bastante foi o do Will Dev.
 
 const columns = document.querySelectorAll(".colunaDeAcesso");
 
