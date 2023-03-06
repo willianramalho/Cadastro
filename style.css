@@ -17,7 +17,7 @@ table{
 }
 
 tbody{
-    border: 0.5px solid red;
+    border: 0.5px solid rgb(0, 0, 0);
 }
 
 .liberaAcesso{
@@ -25,7 +25,7 @@ tbody{
     justify-content: center;
 }
 
-.kanban {
+.nivelDeAcesso{
     display: flex;
     justify-content: center;
     min-height: 250px;
@@ -33,12 +33,12 @@ tbody{
     padding: 10px;
 }
 
-.column{
+.colunaDeAcesso{
     display: flex;
     flex-direction: column;
     gap: 10px;
     padding: 10px;
-    background-color: blue;
+    background-color: rgb(175, 175, 184);
     min-width: 100px;
     border-radius: 10px;
 }
@@ -47,6 +47,10 @@ tbody{
     background-color: white;
     padding: 10px;
     border-radius: 10px;
+}
+
+.item:hover{
+    background-color: rgb(201, 201, 8);
 }
 
 .dragging {
@@ -70,4 +74,14 @@ tbody{
 .infoTable, input{
     width: 221px;
     height: 25px;
+}
+
+#botaoCancela, #botaoSalvar{
+    border-radius: 10px;
+    border: none;
+}
+
+#botaoCancela:hover, #botaoSalvar:hover{
+    background-color: rgb(201, 201, 8);
+    cursor: pointer;
 }

@@ -15,7 +15,7 @@
                 <tr class="linhaTbody">
                     <td class="colunaTbody">Nome Completo</td>
                     <td class="colunaTbody">
-                        <input type="text" placeholder="Nome completo do novo usuario">
+                        <input type="text" placeholder="Nome completo">
                     </td>
                 </tr>
                 <tr class="linhaTbody">
@@ -23,13 +23,13 @@
                         CPF
                     </td>
                     <td class="colunaTbody">
-                        <input type="number">
+                        <input type="number" placeholder="Informe o CPF">
                     </td>
                 </tr>
                 <tr class="linhaTbody">
                     <td class="colunaTbody">E-mail</td>
                     <td class="colunaTbody">
-                        <input type="email">
+                        <input type="email" placeholder="Informe o E-mail">
                     </td>
                 </tr>
                 <tr class="linhaTbody">
@@ -37,7 +37,7 @@
                         Login
                     </td>
                     <td class="colunaTbody">
-                        <input type="login">
+                        <input type="login" placeholder="Informe o Login desejado">
                     </td>
                 </tr>
                 <tr class="linhaTbody">
@@ -45,7 +45,7 @@
                         Senha
                     </td>
                     <td class="colunaTbody">
-                        <input type="password">
+                        <input type="password" placeholder="**********">
                     </td>
                 </tr>
                 <tr class="linhaTbody">
@@ -61,7 +61,8 @@
                         Acesso
                     </td>
                     <td class="colunaTbody">
-                        <select name="Acesso" id="acesso">,
+                        <select name="Acesso" id="acesso">
+                            <option></option>
                             <option value="admin">Admin</option>
                             <option value="revisor">Revisor</option>
                             <option value="leitor">Leitor</option>
@@ -74,6 +75,7 @@
                     </td>
                     <td class="colunaTbody">
                         <select name="Genero" id="genero">
+                            <option></option>
                             <option value="m">Masculino</option>
                             <option value="f">Feminino</option>
                         </select>
@@ -82,30 +84,36 @@
                 <tr class="linhaAcesso">
                     <br><br>
                     <td>
-                        Liberar Níveis de acesso
-                        <br>
                         <div class="liberaAcesso">
-                            <div class="kanban">
-                                <div class="column">
+                            <div class="nivelDeAcesso">
+                                <div class="colunaDeAcesso">
                                     <div class="item" draggable="true">Nível de acesso 1</div>
                                     <div class="item" draggable="true">Nível de acesso 2</div>
                                     <div class="item" draggable="true">Nível de acesso 3</div>
-                                </div>
-                            </div>
-                            <div class="kanban">
-                                <div class="column">
                                     <div class="item" draggable="true">Nível de acesso 4</div>
                                     <div class="item" draggable="true">Nível de acesso 5</div>
                                     <div class="item" draggable="true">Nível de acesso 6</div>
                                 </div>
                             </div>
+                            <div class="nivelDeAcesso">
+                                <div class="colunaDeAcesso">
+
+                                </div>
+                            </div>
                         </div>
                         </div>
                     </td>
+                    <tr>
+                        <td>
+                            <button type="button" id="botaoCancela">Cancelar</button>
+                            <button type="reset" id="botaoSalvar">Salvar</button>
+                        </td>
+                    </tr>
                 </tr>
             </tbody>
         </table>
     </div>
     <script src="main.js"></script>
+    <script src="botoes.js"></script>
 </body>
 </html>
